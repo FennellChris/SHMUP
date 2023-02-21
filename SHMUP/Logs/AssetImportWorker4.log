@@ -822,3 +822,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1846.584572 seconds.
+  path: Assets/_Prefabs
+  artifactKey: Guid(172cc8a2a170f484680fe5e37754aa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs using Guid(172cc8a2a170f484680fe5e37754aa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f65dc14b6edb076fc81aaca378aa9e') in 0.034506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.655591 seconds.
+  path: Assets/_Prefabs/Enemy_0.prefab
+  artifactKey: Guid(2c86ff54731f644d182247b71b7f5ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Enemy_0.prefab using Guid(2c86ff54731f644d182247b71b7f5ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ded77793d190d6da1f881cc84d3b8da') in 0.430952 seconds 
