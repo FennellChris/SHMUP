@@ -183,3 +183,36 @@ Received Import Request.
   path: Assets/_Materials/Space_Transparent.png
   artifactKey: Guid(453afbaa9f90a42ca875148705ae1b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/_Materials/Space_Transparent.png using Guid(453afbaa9f90a42ca875148705ae1b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2683030777a4d5550db172f70815c065') in 0.886656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 329.758208 seconds.
+  path: Assets/Assets by Peter Burroughs/Models/enemy0.fbx
+  artifactKey: Guid(f0b8c1c95ce79ec4d9a5a089bc9fdee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets by Peter Burroughs/Models/enemy0.fbx using Guid(f0b8c1c95ce79ec4d9a5a089bc9fdee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e561f2a920ef48de7d578d1076a8336f') in 1.636928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Assets by Peter Burroughs/Models/enemy4.fbx
+  artifactKey: Guid(0124bc53210bf6d488148eb27b996322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets by Peter Burroughs/Models/enemy4.fbx using Guid(0124bc53210bf6d488148eb27b996322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7ef36e6dd1f0cfdd5efc7b8313578f') in 0.232857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Assets by Peter Burroughs/Models/weapon_MissileLauncher.fbx
+  artifactKey: Guid(0b915be395eb1f54c87faeaabb622d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets by Peter Burroughs/Models/weapon_MissileLauncher.fbx using Guid(0b915be395eb1f54c87faeaabb622d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd223d2c1cf60d3db0d780f4d085c3dbe') in 0.083795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Assets by Peter Burroughs/Models/weapon_Phaser.fbx
+  artifactKey: Guid(2b917555367b8f64fab39ba6974870f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets by Peter Burroughs/Models/weapon_Phaser.fbx using Guid(2b917555367b8f64fab39ba6974870f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824ea403b7ceec4e0c1355f216828898') in 0.104996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets by Peter Burroughs/Models/weapon_SpreadShot.fbx
+  artifactKey: Guid(8b6e5debbe11f9241ade9814e3d16d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets by Peter Burroughs/Models/weapon_SpreadShot.fbx using Guid(8b6e5debbe11f9241ade9814e3d16d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815aa16c34d561d81c06216915df9506') in 0.080626 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
