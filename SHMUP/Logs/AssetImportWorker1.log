@@ -441,3 +441,18 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1257.394643 seconds.
+  path: Assets/Assets by Peter Burroughs/Materials/enemy1.mat
+  artifactKey: Guid(405f02960e4500640828cf988dcafa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets by Peter Burroughs/Materials/enemy1.mat using Guid(405f02960e4500640828cf988dcafa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6408f19d6da1575eae266530fc0b249d') in 0.451443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Assets by Peter Burroughs/Materials/weapon_MissileLauncherProjectile.mat
+  artifactKey: Guid(8638022df59a92449b2b364bf044689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets by Peter Burroughs/Materials/weapon_MissileLauncherProjectile.mat using Guid(8638022df59a92449b2b364bf044689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f4179abb1b276a982403c253c04eb9') in 0.045655 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
