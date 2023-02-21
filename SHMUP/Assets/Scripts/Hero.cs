@@ -11,8 +11,11 @@ public class Hero : MonoBehaviour
     public float rollMult = -45;
     public float pitchMult = 30;
     
-    [Header("Dynamic")] [Range(0,4)]
-    public float shieldLevel = 1;
+    [Header("Dynamic")] [Range(0,4)] [SerializeField]
+    private float _shieldLevel = 1;
+    //public float shieldLevel = 1;
+    [Tooltip( "This field holds a reference to the last triggering GameObject")]
+    private GameObject lastTiggerGo = null;
 
     void Awake () {
         if (S == null){
@@ -35,5 +38,31 @@ public class Hero : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(vAxis*pitchMult,hAxis*rollMult,0);
         
+    }
+    void OnTriggerEnter(Collider other ) {
+        Transform rootT = other.gameObject.transform.root;
+        GameObject go = rootT.gameObject;
+        //Debug.Log("Shield trigger hit by: " +go.gameObject.name);
+
+        if ( go == lastTiggerGo ) return;
+        lastTiggerGo = go;
+
+        Enemy enemy = go.GetComponent<Enemy>();
+        if ( enemy != null ) {
+            shieldLevel --;
+            Destroy(go);
+        } else {
+            Debug.LogWarning("Shield trigger hit by non-Enemy: " +go.name);
+        }
+    }
+    public float shieldLevel  {
+        get { return ( _shieldLevel ); }
+        private set {
+            _shieldLevel = Mathf.Min( value, 4 );
+            if (value < 0 ){
+                Destroy(this.gameObject);
+                Main.HERO_DIED();
+            }
+        }
     }
 }
